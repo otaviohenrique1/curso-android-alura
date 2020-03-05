@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="adicionar_produto">+</string>
+    <string name="item_nome">Nome</string>
+    <string name="item_quantidade">0</string>
+    <string name="item_preco">Preco</string>
+    <string name="lista_marcado">Marcado</string>
+    <string name="lista_dados_do_produto">Dados do produto</string>
+    <string name="salvar_formulario">Salvar</string>
+    <string name="produto_nome_campo">Produto</string>
+    <string name="produto_quantidade_campo">0</string>
+</resources>
