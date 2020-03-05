@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListaProdutosCompras</string>
+    <string name="menu_titulo">Menu</string>
+    <string name="menu_cadastrar_produto">Cadastrar produto</string>
+    <string name="formulario_produtos_nome">Nome</string>
+    <string name="formulario_produtos_preco">Preço</string>
+    <string name="formulario_produtos_quantidade">Quantidade</string>
+    <string name="formulario_produtos_cadastrar">Cadastrar</string>
+    <string name="lista_adicionar_produto">+</string>
+</resources>
