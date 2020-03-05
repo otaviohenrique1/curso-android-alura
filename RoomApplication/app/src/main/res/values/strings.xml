@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AluraRoomApp</string>
+    <string name="dash_mensagem">O que você deseja fazer?</string>
+    <string name="dash_btn_aluno">Cadastrar alunos</string>
+    <string name="dash_btn_prova">Adicionar provas</string>
+    <string name="dash_btn_notas">Lançar notas</string>
+    <string name="dash_btn_ranking">Ranking de notas</string>
+    <string name="formulario_aluno_nome">Nome</string>
+    <string name="formulario_aluno_nascimento">Data de nascimento</string>
+    <string name="formulario_aluno_email">Email</string>
+    <string name="formulario_aluno_btn">Cadastrar</string>
+    <string name="formulario_prova_btn">Adicionar</string>
+    <string name="formulario_prova_materia">Materia</string>
+    <string name="formulario_prova_data">Data de realização</string>
+</resources>

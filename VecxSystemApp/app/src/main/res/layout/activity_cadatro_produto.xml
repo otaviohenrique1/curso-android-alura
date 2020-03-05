@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.appvecxsystem.vecxsystemapp.activity.CadatroProdutoActivity">
+
+    <EditText
+        android:id="@+id/cadastro_produto_nome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cadastro_produto_marca"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/cadastro_produto_nome"
+        app:layout_constraintStart_toStartOf="@+id/cadastro_produto_nome"
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_produto_nome" />
+
+    <EditText
+        android:id="@+id/cadastro_produto_quantidade"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Quantidade"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/cadastro_produto_fornecedor"
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_produto_fornecedor" />
+
+    <EditText
+        android:id="@+id/cadastro_produto_primeira_compra"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Primeira compra"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="@+id/cadastro_produto_quantidade"
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_produto_quantidade" />
+
+    <EditText
+        android:id="@+id/cadastro_produto_fornecedor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Fornecedor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/cadastro_produto_marca"
+        app:layout_constraintStart_toStartOf="@+id/cadastro_produto_marca"
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_produto_marca" />
+</android.support.constraint.ConstraintLayout>

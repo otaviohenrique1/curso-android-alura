@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_lista_prova_calendario"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Busca"
+        app:showAsAction="always"/>
+</menu>
